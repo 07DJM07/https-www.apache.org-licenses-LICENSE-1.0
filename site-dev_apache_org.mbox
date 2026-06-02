@@ -1,0 +1,742 @@
+From site-dev-return-8726-archive-asf-public=cust-asf.ponee.io@apache.org  Sun May 10 02:03:00 2026
+Return-Path: <site-dev-return-8726-archive-asf-public=cust-asf.ponee.io@apache.org>
+X-Original-To: archive-asf-public@cust-asf.ponee.io
+Delivered-To: archive-asf-public@cust-asf.ponee.io
+Received: from mxout1-ec2-va.apache.org (mxout1-ec2-va.apache.org [3.227.148.255])
+	by mx-eu-03.ponee.io (Postfix) with ESMTPS id AD21A3E978
+	for <archive-asf-public@cust-asf.ponee.io>; Sun, 10 May 2026 02:03:00 +0000 (UTC)
+Received: from mail.apache.org (mailgw-he-de.apache.org [116.203.246.181])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits))
+	(No client certificate requested)
+	by mxout1-ec2-va.apache.org (ASF Mail Server at mxout1-ec2-va.apache.org) with ESMTPS id 9778152734
+	for <archive-asf-public@cust-asf.ponee.io>; Sun, 10 May 2026 02:02:19 +0000 (UTC)
+Received: (qmail 1633456 invoked by uid 998); 10 May 2026 02:02:18 -0000
+Mailing-List: contact site-dev-help@apache.org; run by ezmlm
+List-ID: <site-dev.apache.org>
+precedence: bulk
+list-help: <mailto:site-dev-help@apache.org>
+list-unsubscribe: <mailto:site-dev-unsubscribe@apache.org>
+list-post: <mailto:site-dev@apache.org>
+Delivered-To: mailing list site-dev@apache.org
+Received: (qmail 1633399 invoked by uid 116); 10 May 2026 02:02:18 -0000
+Received: from ec2-18-157-209-77.eu-central-1.compute.amazonaws.com (HELO mailrelay2-ec2-de.apache.org) (18.157.209.77)
+ by apache.org (qpsmtpd/0.94) with ESMTP; Sun, 10 May 2026 02:02:18 +0000
+Authentication-Results: apache.org; auth=none
+Received: from projects-vm3.apache.org (unknown [209.188.14.137])
+	by mailrelay2-ec2-de.apache.org (ASF Mail Server at mailrelay2-ec2-de.apache.org) with ESMTPS id C66F7401ED
+	for <site-dev@apache.org>; Sun, 10 May 2026 02:02:17 +0000 (UTC)
+Received: from [127.0.1.1] (localhost [127.0.0.1])
+	by projects-vm3.apache.org (ASF Mail Server at projects-vm3.apache.org) with ESMTP id 6224E1C4CD7
+	for <site-dev@apache.org>; Sun, 10 May 2026 02:02:16 +0000 (UTC)
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: ERROR: one or more errors detected - see also the /var/log/www-data/parseprojects.log file
+To: Site Development <site-dev@apache.org>
+Message-Id: <20260510020216.6224E1C4CD7@projects-vm3.apache.org>
+Date: Sun, 10 May 2026 02:02:16 +0000 (UTC)
+From: Projects <apsite@apache.org>
+Reply-To: <site-dev@apache.org>
+Cc: site-dev@apache.org
+
+URLs:
+https://gitbox.apache.org/repos/asf?p=axis-axis2-java-core.git;a=blob_plain;f=etc/doap_Axis2.rdf;hb=HEAD
+HTTP Error 429: Too Many Requests
+
+From site-dev-return-8727-archive-asf-public=cust-asf.ponee.io@apache.org  Tue May 12 02:02:16 2026
+Return-Path: <site-dev-return-8727-archive-asf-public=cust-asf.ponee.io@apache.org>
+X-Original-To: archive-asf-public@cust-asf.ponee.io
+Delivered-To: archive-asf-public@cust-asf.ponee.io
+Received: from mxout1-he-de.apache.org (mxout1-he-de.apache.org [95.216.194.37])
+	by mx-eu-03.ponee.io (Postfix) with ESMTPS id F1F183E72E
+	for <archive-asf-public@cust-asf.ponee.io>; Tue, 12 May 2026 02:02:16 +0000 (UTC)
+Received: from mail.apache.org (mailgw-he-de.apache.org [IPv6:2a01:4f8:c2c:d4aa::1])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (4096 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mxout1-he-de.apache.org (ASF Mail Server at mxout1-he-de.apache.org) with ESMTPS id DDEED62B44
+	for <archive-asf-public@cust-asf.ponee.io>; Tue, 12 May 2026 02:02:16 +0000 (UTC)
+Received: (qmail 1423372 invoked by uid 998); 12 May 2026 02:02:16 -0000
+Mailing-List: contact site-dev-help@apache.org; run by ezmlm
+List-ID: <site-dev.apache.org>
+precedence: bulk
+list-help: <mailto:site-dev-help@apache.org>
+list-unsubscribe: <mailto:site-dev-unsubscribe@apache.org>
+list-post: <mailto:site-dev@apache.org>
+Delivered-To: mailing list site-dev@apache.org
+Received: (qmail 1423357 invoked by uid 116); 12 May 2026 02:02:16 -0000
+Received: from ec2-18-157-209-77.eu-central-1.compute.amazonaws.com (HELO mailrelay2-ec2-de.apache.org) (18.157.209.77)
+ by apache.org (qpsmtpd/0.94) with ESMTP; Tue, 12 May 2026 02:02:16 +0000
+Authentication-Results: apache.org; auth=none
+Received: from projects-vm3.apache.org (unknown [209.188.14.137])
+	by mailrelay2-ec2-de.apache.org (ASF Mail Server at mailrelay2-ec2-de.apache.org) with ESMTPS id DCC744020C
+	for <site-dev@apache.org>; Tue, 12 May 2026 02:02:15 +0000 (UTC)
+Received: from [127.0.1.1] (localhost [127.0.0.1])
+	by projects-vm3.apache.org (ASF Mail Server at projects-vm3.apache.org) with ESMTP id 7D88F1C5329
+	for <site-dev@apache.org>; Tue, 12 May 2026 02:02:14 +0000 (UTC)
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: ERROR: one or more errors detected - see also the /var/log/www-data/parseprojects.log file
+To: Site Development <site-dev@apache.org>
+Message-Id: <20260512020214.7D88F1C5329@projects-vm3.apache.org>
+Date: Tue, 12 May 2026 02:02:14 +0000 (UTC)
+From: Projects <apsite@apache.org>
+Reply-To: <site-dev@apache.org>
+Cc: site-dev@apache.org
+
+URLs:
+https://gitbox.apache.org/repos/asf?p=axis-axis2-java-core.git;a=blob_plain;f=etc/doap_Axis2.rdf;hb=HEAD
+HTTP Error 429: Too Many Requests
+
+From site-dev-return-8728-archive-asf-public=cust-asf.ponee.io@apache.org  Fri May 15 02:02:24 2026
+Return-Path: <site-dev-return-8728-archive-asf-public=cust-asf.ponee.io@apache.org>
+X-Original-To: archive-asf-public@cust-asf.ponee.io
+Delivered-To: archive-asf-public@cust-asf.ponee.io
+Received: from mxout2-ec2-sy.apache.org (mxout2-ec2-sy.apache.org [13.239.148.9])
+	by mx-eu-03.ponee.io (Postfix) with ESMTPS id 728FD3E747
+	for <archive-asf-public@cust-asf.ponee.io>; Fri, 15 May 2026 02:02:24 +0000 (UTC)
+Received: from mail.apache.org (mailgw-he-de.apache.org [116.203.246.181])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (4096 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mxout2-ec2-sy.apache.org (ASF Mail Server at mxout2-ec2-sy.apache.org) with ESMTPS id 4D49F883FF
+	for <archive-asf-public@cust-asf.ponee.io>; Fri, 15 May 2026 02:02:21 +0000 (UTC)
+Received: (qmail 1138695 invoked by uid 998); 15 May 2026 02:02:18 -0000
+Mailing-List: contact site-dev-help@apache.org; run by ezmlm
+List-ID: <site-dev.apache.org>
+precedence: bulk
+list-help: <mailto:site-dev-help@apache.org>
+list-unsubscribe: <mailto:site-dev-unsubscribe@apache.org>
+list-post: <mailto:site-dev@apache.org>
+Delivered-To: mailing list site-dev@apache.org
+Received: (qmail 1138685 invoked by uid 116); 15 May 2026 02:02:18 -0000
+Received: from ec2-13-52-191-92.us-west-1.compute.amazonaws.com (HELO mailrelay2-ec2-ca.apache.org) (13.52.191.92)
+ by apache.org (qpsmtpd/0.94) with ESMTP; Fri, 15 May 2026 02:02:18 +0000
+Authentication-Results: apache.org; auth=none
+Received: from projects-vm3.apache.org (unknown [209.188.14.137])
+	by mailrelay2-ec2-ca.apache.org (ASF Mail Server at mailrelay2-ec2-ca.apache.org) with ESMTPS id F40C380C76
+	for <site-dev@apache.org>; Fri, 15 May 2026 02:02:16 +0000 (UTC)
+Received: from [127.0.1.1] (localhost [127.0.0.1])
+	by projects-vm3.apache.org (ASF Mail Server at projects-vm3.apache.org) with ESMTP id 98E1F1C4D6B
+	for <site-dev@apache.org>; Fri, 15 May 2026 02:02:16 +0000 (UTC)
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: ERROR: one or more errors detected - see also the /var/log/www-data/parseprojects.log file
+To: Site Development <site-dev@apache.org>
+Message-Id: <20260515020216.98E1F1C4D6B@projects-vm3.apache.org>
+Date: Fri, 15 May 2026 02:02:16 +0000 (UTC)
+From: Projects <apsite@apache.org>
+Reply-To: <site-dev@apache.org>
+Cc: site-dev@apache.org
+
+URLs:
+https://gitbox.apache.org/repos/asf?p=axis-axis2-java-core.git;a=blob_plain;f=etc/doap_Axis2.rdf;hb=HEAD
+HTTP Error 429: Too Many Requests
+
+From site-dev-return-8729-archive-asf-public=cust-asf.ponee.io@apache.org  Fri May 22 01:05:49 2026
+Return-Path: <site-dev-return-8729-archive-asf-public=cust-asf.ponee.io@apache.org>
+X-Original-To: archive-asf-public@cust-asf.ponee.io
+Delivered-To: archive-asf-public@cust-asf.ponee.io
+Received: from mxout2-ec2-ie.apache.org (mxout2-ec2-ie.apache.org [54.194.229.19])
+	by mx-eu-03.ponee.io (Postfix) with ESMTPS id 5A2283E6B7
+	for <archive-asf-public@cust-asf.ponee.io>; Fri, 22 May 2026 01:05:49 +0000 (UTC)
+Received: from mail.apache.org (mailgw-he-de.apache.org [116.203.246.181])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (4096 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mxout2-ec2-ie.apache.org (ASF Mail Server at mxout2-ec2-ie.apache.org) with ESMTPS id DC83688074
+	for <archive-asf-public@cust-asf.ponee.io>; Fri, 22 May 2026 01:05:48 +0000 (UTC)
+Received: (qmail 1834702 invoked by uid 998); 22 May 2026 01:05:48 -0000
+Mailing-List: contact site-dev-help@apache.org; run by ezmlm
+List-ID: <site-dev.apache.org>
+precedence: bulk
+list-help: <mailto:site-dev-help@apache.org>
+list-unsubscribe: <mailto:site-dev-unsubscribe@apache.org>
+list-post: <mailto:site-dev@apache.org>
+Delivered-To: mailing list site-dev@apache.org
+Received: (qmail 1834680 invoked by uid 116); 22 May 2026 01:05:48 -0000
+Received: from ec2-18-157-209-77.eu-central-1.compute.amazonaws.com (HELO mailrelay2-ec2-de.apache.org) (18.157.209.77)
+ by apache.org (qpsmtpd/0.94) with ESMTP; Fri, 22 May 2026 01:05:48 +0000
+Authentication-Results: apache.org; auth=none
+Received: from projects-vm3.apache.org (unknown [209.188.14.137])
+	by mailrelay2-ec2-de.apache.org (ASF Mail Server at mailrelay2-ec2-de.apache.org) with ESMTPS id 9A28740140
+	for <site-dev@apache.org>; Fri, 22 May 2026 01:05:46 +0000 (UTC)
+Received: from [127.0.1.1] (localhost [127.0.0.1])
+	by projects-vm3.apache.org (ASF Mail Server at projects-vm3.apache.org) with ESMTP id 381A01C5386
+	for <site-dev@apache.org>; Fri, 22 May 2026 01:05:45 +0000 (UTC)
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: WARN: Apache Livy (livy) missing from /data/committees.xml
+To: Site Development <site-dev@apache.org>
+Message-Id: <20260522010545.381A01C5386@projects-vm3.apache.org>
+Date: Fri, 22 May 2026 01:05:45 +0000 (UTC)
+From: Projects <apsite@apache.org>
+Reply-To: <site-dev@apache.org>
+Cc: site-dev@apache.org
+
+
+From site-dev-return-8730-archive-asf-public=cust-asf.ponee.io@apache.org  Sat May 23 01:05:42 2026
+Return-Path: <site-dev-return-8730-archive-asf-public=cust-asf.ponee.io@apache.org>
+X-Original-To: archive-asf-public@cust-asf.ponee.io
+Delivered-To: archive-asf-public@cust-asf.ponee.io
+Received: from mxout2-ec2-se.apache.org (mxout2-ec2-se.apache.org [13.53.55.203])
+	by mx-eu-03.ponee.io (Postfix) with ESMTPS id 7C9BD3E709
+	for <archive-asf-public@cust-asf.ponee.io>; Sat, 23 May 2026 01:05:42 +0000 (UTC)
+Received: from mail.apache.org (mailgw-he-de.apache.org [116.203.246.181])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (4096 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mxout2-ec2-se.apache.org (ASF Mail Server at mxout2-ec2-se.apache.org) with ESMTPS id DF5A682FF0
+	for <archive-asf-public@cust-asf.ponee.io>; Sat, 23 May 2026 01:05:41 +0000 (UTC)
+Received: (qmail 199007 invoked by uid 998); 23 May 2026 01:05:41 -0000
+Mailing-List: contact site-dev-help@apache.org; run by ezmlm
+List-ID: <site-dev.apache.org>
+precedence: bulk
+list-help: <mailto:site-dev-help@apache.org>
+list-unsubscribe: <mailto:site-dev-unsubscribe@apache.org>
+list-post: <mailto:site-dev@apache.org>
+Delivered-To: mailing list site-dev@apache.org
+Received: (qmail 198997 invoked by uid 116); 23 May 2026 01:05:41 -0000
+Received: from ec2-18-157-209-77.eu-central-1.compute.amazonaws.com (HELO mailrelay2-ec2-de.apache.org) (18.157.209.77)
+ by apache.org (qpsmtpd/0.94) with ESMTP; Sat, 23 May 2026 01:05:41 +0000
+Authentication-Results: apache.org; auth=none
+Received: from projects-vm3.apache.org (unknown [209.188.14.137])
+	by mailrelay2-ec2-de.apache.org (ASF Mail Server at mailrelay2-ec2-de.apache.org) with ESMTPS id E52564007A
+	for <site-dev@apache.org>; Sat, 23 May 2026 01:05:40 +0000 (UTC)
+Received: from [127.0.1.1] (localhost [127.0.0.1])
+	by projects-vm3.apache.org (ASF Mail Server at projects-vm3.apache.org) with ESMTP id 7FFF01C4D46
+	for <site-dev@apache.org>; Sat, 23 May 2026 01:05:39 +0000 (UTC)
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: WARN: Apache Livy (livy) missing from /data/committees.xml
+To: Site Development <site-dev@apache.org>
+Message-Id: <20260523010539.7FFF01C4D46@projects-vm3.apache.org>
+Date: Sat, 23 May 2026 01:05:39 +0000 (UTC)
+From: Projects <apsite@apache.org>
+Reply-To: <site-dev@apache.org>
+Cc: site-dev@apache.org
+
+
+From site-dev-return-8731-archive-asf-public=cust-asf.ponee.io@apache.org  Sun May 24 01:05:41 2026
+Return-Path: <site-dev-return-8731-archive-asf-public=cust-asf.ponee.io@apache.org>
+X-Original-To: archive-asf-public@cust-asf.ponee.io
+Delivered-To: archive-asf-public@cust-asf.ponee.io
+Received: from mxout2-ec2-ie.apache.org (mxout2-ec2-ie.apache.org [54.194.229.19])
+	by mx-eu-03.ponee.io (Postfix) with ESMTPS id 7851E3E702
+	for <archive-asf-public@cust-asf.ponee.io>; Sun, 24 May 2026 01:05:41 +0000 (UTC)
+Received: from mail.apache.org (mailgw-he-de.apache.org [116.203.246.181])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (4096 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mxout2-ec2-ie.apache.org (ASF Mail Server at mxout2-ec2-ie.apache.org) with ESMTPS id F089C803F2
+	for <archive-asf-public@cust-asf.ponee.io>; Sun, 24 May 2026 01:05:40 +0000 (UTC)
+Received: (qmail 1371805 invoked by uid 998); 24 May 2026 01:05:40 -0000
+Mailing-List: contact site-dev-help@apache.org; run by ezmlm
+List-ID: <site-dev.apache.org>
+precedence: bulk
+list-help: <mailto:site-dev-help@apache.org>
+list-unsubscribe: <mailto:site-dev-unsubscribe@apache.org>
+list-post: <mailto:site-dev@apache.org>
+Delivered-To: mailing list site-dev@apache.org
+Received: (qmail 1371795 invoked by uid 116); 24 May 2026 01:05:40 -0000
+Received: from ec2-18-157-209-77.eu-central-1.compute.amazonaws.com (HELO mailrelay2-ec2-de.apache.org) (18.157.209.77)
+ by apache.org (qpsmtpd/0.94) with ESMTP; Sun, 24 May 2026 01:05:40 +0000
+Authentication-Results: apache.org; auth=none
+Received: from projects-vm3.apache.org (unknown [209.188.14.137])
+	by mailrelay2-ec2-de.apache.org (ASF Mail Server at mailrelay2-ec2-de.apache.org) with ESMTPS id 099684007A
+	for <site-dev@apache.org>; Sun, 24 May 2026 01:05:40 +0000 (UTC)
+Received: from [127.0.1.1] (localhost [127.0.0.1])
+	by projects-vm3.apache.org (ASF Mail Server at projects-vm3.apache.org) with ESMTP id 97E851C4F63
+	for <site-dev@apache.org>; Sun, 24 May 2026 01:05:38 +0000 (UTC)
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: WARN: Apache Livy (livy) missing from /data/committees.xml
+To: Site Development <site-dev@apache.org>
+Message-Id: <20260524010538.97E851C4F63@projects-vm3.apache.org>
+Date: Sun, 24 May 2026 01:05:38 +0000 (UTC)
+From: Projects <apsite@apache.org>
+Reply-To: <site-dev@apache.org>
+Cc: site-dev@apache.org
+
+
+From site-dev-return-8732-archive-asf-public=cust-asf.ponee.io@apache.org  Sun May 24 02:02:14 2026
+Return-Path: <site-dev-return-8732-archive-asf-public=cust-asf.ponee.io@apache.org>
+X-Original-To: archive-asf-public@cust-asf.ponee.io
+Delivered-To: archive-asf-public@cust-asf.ponee.io
+Received: from mxout1-he-de.apache.org (mxout1-he-de.apache.org [95.216.194.37])
+	by mx-eu-03.ponee.io (Postfix) with ESMTPS id E41C43E702
+	for <archive-asf-public@cust-asf.ponee.io>; Sun, 24 May 2026 02:02:14 +0000 (UTC)
+Received: from mail.apache.org (mailgw-he-de.apache.org [IPv6:2a01:4f8:c2c:d4aa::1])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (4096 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mxout1-he-de.apache.org (ASF Mail Server at mxout1-he-de.apache.org) with ESMTPS id C0AA460517
+	for <archive-asf-public@cust-asf.ponee.io>; Sun, 24 May 2026 02:02:14 +0000 (UTC)
+Received: (qmail 1410053 invoked by uid 998); 24 May 2026 02:02:14 -0000
+Mailing-List: contact site-dev-help@apache.org; run by ezmlm
+List-ID: <site-dev.apache.org>
+precedence: bulk
+list-help: <mailto:site-dev-help@apache.org>
+list-unsubscribe: <mailto:site-dev-unsubscribe@apache.org>
+list-post: <mailto:site-dev@apache.org>
+Delivered-To: mailing list site-dev@apache.org
+Received: (qmail 1410033 invoked by uid 116); 24 May 2026 02:02:14 -0000
+Received: from ec2-18-157-209-77.eu-central-1.compute.amazonaws.com (HELO mailrelay2-ec2-de.apache.org) (18.157.209.77)
+ by apache.org (qpsmtpd/0.94) with ESMTP; Sun, 24 May 2026 02:02:14 +0000
+Authentication-Results: apache.org; auth=none
+Received: from projects-vm3.apache.org (unknown [209.188.14.137])
+	by mailrelay2-ec2-de.apache.org (ASF Mail Server at mailrelay2-ec2-de.apache.org) with ESMTPS id D59594007A
+	for <site-dev@apache.org>; Sun, 24 May 2026 02:02:13 +0000 (UTC)
+Received: from [127.0.1.1] (localhost [127.0.0.1])
+	by projects-vm3.apache.org (ASF Mail Server at projects-vm3.apache.org) with ESMTP id 6639E1C514F
+	for <site-dev@apache.org>; Sun, 24 May 2026 02:02:12 +0000 (UTC)
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: ERROR: one or more errors detected - see also the /var/log/www-data/parseprojects.log file
+To: Site Development <site-dev@apache.org>
+Message-Id: <20260524020212.6639E1C514F@projects-vm3.apache.org>
+Date: Sun, 24 May 2026 02:02:12 +0000 (UTC)
+From: Projects <apsite@apache.org>
+Reply-To: <site-dev@apache.org>
+Cc: site-dev@apache.org
+
+URLs:
+https://gitbox.apache.org/repos/asf?p=axis-axis2-java-core.git;a=blob_plain;f=etc/doap_Axis2.rdf;hb=HEAD
+HTTP Error 429: Too Many Requests
+
+From site-dev-return-8733-archive-asf-public=cust-asf.ponee.io@apache.org  Mon May 25 01:05:47 2026
+Return-Path: <site-dev-return-8733-archive-asf-public=cust-asf.ponee.io@apache.org>
+X-Original-To: archive-asf-public@cust-asf.ponee.io
+Delivered-To: archive-asf-public@cust-asf.ponee.io
+Received: from mxout1-ec2-va.apache.org (mxout1-ec2-va.apache.org [3.227.148.255])
+	by mx-eu-03.ponee.io (Postfix) with ESMTPS id 782BA3E6DA
+	for <archive-asf-public@cust-asf.ponee.io>; Mon, 25 May 2026 01:05:47 +0000 (UTC)
+Received: from mail.apache.org (mailgw-he-de.apache.org [116.203.246.181])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits))
+	(No client certificate requested)
+	by mxout1-ec2-va.apache.org (ASF Mail Server at mxout1-ec2-va.apache.org) with ESMTPS id 7BAB546126
+	for <archive-asf-public@cust-asf.ponee.io>; Mon, 25 May 2026 01:05:46 +0000 (UTC)
+Received: (qmail 2521273 invoked by uid 998); 25 May 2026 01:05:45 -0000
+Mailing-List: contact site-dev-help@apache.org; run by ezmlm
+List-ID: <site-dev.apache.org>
+precedence: bulk
+list-help: <mailto:site-dev-help@apache.org>
+list-unsubscribe: <mailto:site-dev-unsubscribe@apache.org>
+list-post: <mailto:site-dev@apache.org>
+Delivered-To: mailing list site-dev@apache.org
+Received: (qmail 2521263 invoked by uid 116); 25 May 2026 01:05:44 -0000
+Received: from ec2-18-157-209-77.eu-central-1.compute.amazonaws.com (HELO mailrelay2-ec2-de.apache.org) (18.157.209.77)
+ by apache.org (qpsmtpd/0.94) with ESMTP; Mon, 25 May 2026 01:05:44 +0000
+Authentication-Results: apache.org; auth=none
+Received: from projects-vm3.apache.org (unknown [209.188.14.137])
+	by mailrelay2-ec2-de.apache.org (ASF Mail Server at mailrelay2-ec2-de.apache.org) with ESMTPS id C928340160
+	for <site-dev@apache.org>; Mon, 25 May 2026 01:05:43 +0000 (UTC)
+Received: from [127.0.1.1] (localhost [127.0.0.1])
+	by projects-vm3.apache.org (ASF Mail Server at projects-vm3.apache.org) with ESMTP id 6B6371C48E6
+	for <site-dev@apache.org>; Mon, 25 May 2026 01:05:42 +0000 (UTC)
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: WARN: Apache Livy (livy) missing from /data/committees.xml
+To: Site Development <site-dev@apache.org>
+Message-Id: <20260525010542.6B6371C48E6@projects-vm3.apache.org>
+Date: Mon, 25 May 2026 01:05:42 +0000 (UTC)
+From: Projects <apsite@apache.org>
+Reply-To: <site-dev@apache.org>
+Cc: site-dev@apache.org
+
+
+From site-dev-return-8734-archive-asf-public=cust-asf.ponee.io@apache.org  Tue May 26 01:05:48 2026
+Return-Path: <site-dev-return-8734-archive-asf-public=cust-asf.ponee.io@apache.org>
+X-Original-To: archive-asf-public@cust-asf.ponee.io
+Delivered-To: archive-asf-public@cust-asf.ponee.io
+Received: from mxout2-ec2-ie.apache.org (mxout2-ec2-ie.apache.org [54.194.229.19])
+	by mx-eu-03.ponee.io (Postfix) with ESMTPS id B2AD53E6BE
+	for <archive-asf-public@cust-asf.ponee.io>; Tue, 26 May 2026 01:05:48 +0000 (UTC)
+Received: from mail.apache.org (mailgw-he-de.apache.org [116.203.246.181])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (4096 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mxout2-ec2-ie.apache.org (ASF Mail Server at mxout2-ec2-ie.apache.org) with ESMTPS id DEC9383D7A
+	for <archive-asf-public@cust-asf.ponee.io>; Tue, 26 May 2026 01:05:47 +0000 (UTC)
+Received: (qmail 373101 invoked by uid 998); 26 May 2026 01:05:47 -0000
+Mailing-List: contact site-dev-help@apache.org; run by ezmlm
+List-ID: <site-dev.apache.org>
+precedence: bulk
+list-help: <mailto:site-dev-help@apache.org>
+list-unsubscribe: <mailto:site-dev-unsubscribe@apache.org>
+list-post: <mailto:site-dev@apache.org>
+Delivered-To: mailing list site-dev@apache.org
+Received: (qmail 373091 invoked by uid 116); 26 May 2026 01:05:47 -0000
+Received: from ec2-13-52-191-92.us-west-1.compute.amazonaws.com (HELO mailrelay2-ec2-ca.apache.org) (13.52.191.92)
+ by apache.org (qpsmtpd/0.94) with ESMTP; Tue, 26 May 2026 01:05:47 +0000
+Authentication-Results: apache.org; auth=none
+Received: from projects-vm3.apache.org (unknown [209.188.14.137])
+	by mailrelay2-ec2-ca.apache.org (ASF Mail Server at mailrelay2-ec2-ca.apache.org) with ESMTPS id 23DE9808A6
+	for <site-dev@apache.org>; Tue, 26 May 2026 01:05:46 +0000 (UTC)
+Received: from [127.0.1.1] (localhost [127.0.0.1])
+	by projects-vm3.apache.org (ASF Mail Server at projects-vm3.apache.org) with ESMTP id CBF691C4BE0
+	for <site-dev@apache.org>; Tue, 26 May 2026 01:05:45 +0000 (UTC)
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: WARN: Apache Livy (livy) missing from /data/committees.xml
+To: Site Development <site-dev@apache.org>
+Message-Id: <20260526010545.CBF691C4BE0@projects-vm3.apache.org>
+Date: Tue, 26 May 2026 01:05:45 +0000 (UTC)
+From: Projects <apsite@apache.org>
+Reply-To: <site-dev@apache.org>
+Cc: site-dev@apache.org
+
+
+From site-dev-return-8735-archive-asf-public=cust-asf.ponee.io@apache.org  Wed May 27 01:05:51 2026
+Return-Path: <site-dev-return-8735-archive-asf-public=cust-asf.ponee.io@apache.org>
+X-Original-To: archive-asf-public@cust-asf.ponee.io
+Delivered-To: archive-asf-public@cust-asf.ponee.io
+Received: from mxout2-ec2-or.apache.org (mxout2-ec2-or.apache.org [44.241.252.67])
+	by mx-eu-03.ponee.io (Postfix) with ESMTPS id A05B43E6BE
+	for <archive-asf-public@cust-asf.ponee.io>; Wed, 27 May 2026 01:05:51 +0000 (UTC)
+Received: from mail.apache.org (mailgw-he-de.apache.org [116.203.246.181])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (4096 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mxout2-ec2-or.apache.org (ASF Mail Server at mxout2-ec2-or.apache.org) with ESMTPS id 524A1806AF
+	for <archive-asf-public@cust-asf.ponee.io>; Wed, 27 May 2026 01:05:49 +0000 (UTC)
+Received: (qmail 3202459 invoked by uid 998); 27 May 2026 01:05:47 -0000
+Mailing-List: contact site-dev-help@apache.org; run by ezmlm
+List-ID: <site-dev.apache.org>
+precedence: bulk
+list-help: <mailto:site-dev-help@apache.org>
+list-unsubscribe: <mailto:site-dev-unsubscribe@apache.org>
+list-post: <mailto:site-dev@apache.org>
+Delivered-To: mailing list site-dev@apache.org
+Received: (qmail 3202448 invoked by uid 116); 27 May 2026 01:05:47 -0000
+Received: from ec2-18-157-209-77.eu-central-1.compute.amazonaws.com (HELO mailrelay2-ec2-de.apache.org) (18.157.209.77)
+ by apache.org (qpsmtpd/0.94) with ESMTP; Wed, 27 May 2026 01:05:47 +0000
+Authentication-Results: apache.org; auth=none
+Received: from projects-vm3.apache.org (unknown [209.188.14.137])
+	by mailrelay2-ec2-de.apache.org (ASF Mail Server at mailrelay2-ec2-de.apache.org) with ESMTPS id C68FA4007B
+	for <site-dev@apache.org>; Wed, 27 May 2026 01:05:46 +0000 (UTC)
+Received: from [127.0.1.1] (localhost [127.0.0.1])
+	by projects-vm3.apache.org (ASF Mail Server at projects-vm3.apache.org) with ESMTP id 65DD51C480F
+	for <site-dev@apache.org>; Wed, 27 May 2026 01:05:45 +0000 (UTC)
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: WARN: Apache Livy (livy) missing from /data/committees.xml
+To: Site Development <site-dev@apache.org>
+Message-Id: <20260527010545.65DD51C480F@projects-vm3.apache.org>
+Date: Wed, 27 May 2026 01:05:45 +0000 (UTC)
+From: Projects <apsite@apache.org>
+Reply-To: <site-dev@apache.org>
+Cc: site-dev@apache.org
+
+
+From site-dev-return-8736-archive-asf-public=cust-asf.ponee.io@apache.org  Thu May 28 01:05:48 2026
+Return-Path: <site-dev-return-8736-archive-asf-public=cust-asf.ponee.io@apache.org>
+X-Original-To: archive-asf-public@cust-asf.ponee.io
+Delivered-To: archive-asf-public@cust-asf.ponee.io
+Received: from mxout1-ec2-va.apache.org (mxout1-ec2-va.apache.org [3.227.148.255])
+	by mx-eu-03.ponee.io (Postfix) with ESMTPS id 0131B3E6D6
+	for <archive-asf-public@cust-asf.ponee.io>; Thu, 28 May 2026 01:05:48 +0000 (UTC)
+Received: from mail.apache.org (mailgw-he-de.apache.org [116.203.246.181])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits))
+	(No client certificate requested)
+	by mxout1-ec2-va.apache.org (ASF Mail Server at mxout1-ec2-va.apache.org) with ESMTPS id 05D084AC74
+	for <archive-asf-public@cust-asf.ponee.io>; Thu, 28 May 2026 01:05:46 +0000 (UTC)
+Received: (qmail 2036691 invoked by uid 998); 28 May 2026 01:05:45 -0000
+Mailing-List: contact site-dev-help@apache.org; run by ezmlm
+List-ID: <site-dev.apache.org>
+precedence: bulk
+list-help: <mailto:site-dev-help@apache.org>
+list-unsubscribe: <mailto:site-dev-unsubscribe@apache.org>
+list-post: <mailto:site-dev@apache.org>
+Delivered-To: mailing list site-dev@apache.org
+Received: (qmail 2036681 invoked by uid 116); 28 May 2026 01:05:45 -0000
+Received: from ec2-18-157-209-77.eu-central-1.compute.amazonaws.com (HELO mailrelay2-ec2-de.apache.org) (18.157.209.77)
+ by apache.org (qpsmtpd/0.94) with ESMTP; Thu, 28 May 2026 01:05:45 +0000
+Authentication-Results: apache.org; auth=none
+Received: from projects-vm3.apache.org (unknown [209.188.14.137])
+	by mailrelay2-ec2-de.apache.org (ASF Mail Server at mailrelay2-ec2-de.apache.org) with ESMTPS id 2B0534007B
+	for <site-dev@apache.org>; Thu, 28 May 2026 01:05:45 +0000 (UTC)
+Received: from [127.0.1.1] (localhost [127.0.0.1])
+	by projects-vm3.apache.org (ASF Mail Server at projects-vm3.apache.org) with ESMTP id BD0B91C5145
+	for <site-dev@apache.org>; Thu, 28 May 2026 01:05:43 +0000 (UTC)
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: WARN: Apache Livy (livy) missing from /data/committees.xml
+To: Site Development <site-dev@apache.org>
+Message-Id: <20260528010543.BD0B91C5145@projects-vm3.apache.org>
+Date: Thu, 28 May 2026 01:05:43 +0000 (UTC)
+From: Projects <apsite@apache.org>
+Reply-To: <site-dev@apache.org>
+Cc: site-dev@apache.org
+
+
+From site-dev-return-8737-archive-asf-public=cust-asf.ponee.io@apache.org  Fri May 29 01:05:46 2026
+Return-Path: <site-dev-return-8737-archive-asf-public=cust-asf.ponee.io@apache.org>
+X-Original-To: archive-asf-public@cust-asf.ponee.io
+Delivered-To: archive-asf-public@cust-asf.ponee.io
+Received: from mxout1-he-de.apache.org (mxout1-he-de.apache.org [95.216.194.37])
+	by mx-eu-03.ponee.io (Postfix) with ESMTPS id 7745D3E978
+	for <archive-asf-public@cust-asf.ponee.io>; Fri, 29 May 2026 01:05:46 +0000 (UTC)
+Received: from mail.apache.org (mailgw-he-de.apache.org [IPv6:2a01:4f8:c2c:d4aa::1])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (4096 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mxout1-he-de.apache.org (ASF Mail Server at mxout1-he-de.apache.org) with ESMTPS id 5CC7160FFA
+	for <archive-asf-public@cust-asf.ponee.io>; Fri, 29 May 2026 01:05:46 +0000 (UTC)
+Received: (qmail 1131232 invoked by uid 998); 29 May 2026 01:05:45 -0000
+Mailing-List: contact site-dev-help@apache.org; run by ezmlm
+List-ID: <site-dev.apache.org>
+precedence: bulk
+list-help: <mailto:site-dev-help@apache.org>
+list-unsubscribe: <mailto:site-dev-unsubscribe@apache.org>
+list-post: <mailto:site-dev@apache.org>
+Delivered-To: mailing list site-dev@apache.org
+Received: (qmail 1131222 invoked by uid 116); 29 May 2026 01:05:45 -0000
+Received: from ec2-18-157-209-77.eu-central-1.compute.amazonaws.com (HELO mailrelay2-ec2-de.apache.org) (18.157.209.77)
+ by apache.org (qpsmtpd/0.94) with ESMTP; Fri, 29 May 2026 01:05:45 +0000
+Authentication-Results: apache.org; auth=none
+Received: from projects-vm3.apache.org (unknown [209.188.14.137])
+	by mailrelay2-ec2-de.apache.org (ASF Mail Server at mailrelay2-ec2-de.apache.org) with ESMTPS id 606FC4007B
+	for <site-dev@apache.org>; Fri, 29 May 2026 01:05:45 +0000 (UTC)
+Received: from [127.0.1.1] (localhost [127.0.0.1])
+	by projects-vm3.apache.org (ASF Mail Server at projects-vm3.apache.org) with ESMTP id DFE911C4C94
+	for <site-dev@apache.org>; Fri, 29 May 2026 01:05:43 +0000 (UTC)
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: WARN: Apache Livy (livy) missing from /data/committees.xml
+To: Site Development <site-dev@apache.org>
+Message-Id: <20260529010543.DFE911C4C94@projects-vm3.apache.org>
+Date: Fri, 29 May 2026 01:05:43 +0000 (UTC)
+From: Projects <apsite@apache.org>
+Reply-To: <site-dev@apache.org>
+Cc: site-dev@apache.org
+
+
+From site-dev-return-8738-archive-asf-public=cust-asf.ponee.io@apache.org  Sat May 30 01:05:51 2026
+Return-Path: <site-dev-return-8738-archive-asf-public=cust-asf.ponee.io@apache.org>
+X-Original-To: archive-asf-public@cust-asf.ponee.io
+Delivered-To: archive-asf-public@cust-asf.ponee.io
+Received: from mxout2-ec2-or.apache.org (mxout2-ec2-or.apache.org [44.241.252.67])
+	by mx-eu-03.ponee.io (Postfix) with ESMTPS id ED4EF3E8AE
+	for <archive-asf-public@cust-asf.ponee.io>; Sat, 30 May 2026 01:05:50 +0000 (UTC)
+Received: from mail.apache.org (mailgw-he-de.apache.org [116.203.246.181])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (4096 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mxout2-ec2-or.apache.org (ASF Mail Server at mxout2-ec2-or.apache.org) with ESMTPS id 184E1810E9
+	for <archive-asf-public@cust-asf.ponee.io>; Sat, 30 May 2026 01:05:48 +0000 (UTC)
+Received: (qmail 4032228 invoked by uid 998); 30 May 2026 01:05:47 -0000
+Mailing-List: contact site-dev-help@apache.org; run by ezmlm
+List-ID: <site-dev.apache.org>
+precedence: bulk
+list-help: <mailto:site-dev-help@apache.org>
+list-unsubscribe: <mailto:site-dev-unsubscribe@apache.org>
+list-post: <mailto:site-dev@apache.org>
+Delivered-To: mailing list site-dev@apache.org
+Received: (qmail 4032218 invoked by uid 116); 30 May 2026 01:05:46 -0000
+Received: from ec2-13-52-191-92.us-west-1.compute.amazonaws.com (HELO mailrelay2-ec2-ca.apache.org) (13.52.191.92)
+ by apache.org (qpsmtpd/0.94) with ESMTP; Sat, 30 May 2026 01:05:46 +0000
+Authentication-Results: apache.org; auth=none
+Received: from projects-vm3.apache.org (unknown [209.188.14.137])
+	by mailrelay2-ec2-ca.apache.org (ASF Mail Server at mailrelay2-ec2-ca.apache.org) with ESMTPS id CC780808BE
+	for <site-dev@apache.org>; Sat, 30 May 2026 01:05:45 +0000 (UTC)
+Received: from [127.0.1.1] (localhost [127.0.0.1])
+	by projects-vm3.apache.org (ASF Mail Server at projects-vm3.apache.org) with ESMTP id 74C5D1C4BEE
+	for <site-dev@apache.org>; Sat, 30 May 2026 01:05:45 +0000 (UTC)
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: WARN: Apache Livy (livy) missing from /data/committees.xml
+To: Site Development <site-dev@apache.org>
+Message-Id: <20260530010545.74C5D1C4BEE@projects-vm3.apache.org>
+Date: Sat, 30 May 2026 01:05:45 +0000 (UTC)
+From: Projects <apsite@apache.org>
+Reply-To: <site-dev@apache.org>
+Cc: site-dev@apache.org
+
+
+From site-dev-return-8739-archive-asf-public=cust-asf.ponee.io@apache.org  Sun May 31 01:05:44 2026
+Return-Path: <site-dev-return-8739-archive-asf-public=cust-asf.ponee.io@apache.org>
+X-Original-To: archive-asf-public@cust-asf.ponee.io
+Delivered-To: archive-asf-public@cust-asf.ponee.io
+Received: from mxout2-ec2-ie.apache.org (mxout2-ec2-ie.apache.org [54.194.229.19])
+	by mx-eu-03.ponee.io (Postfix) with ESMTPS id 5BB143EEC9
+	for <archive-asf-public@cust-asf.ponee.io>; Sun, 31 May 2026 01:05:44 +0000 (UTC)
+Received: from mail.apache.org (mailgw-he-de.apache.org [116.203.246.181])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (4096 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mxout2-ec2-ie.apache.org (ASF Mail Server at mxout2-ec2-ie.apache.org) with ESMTPS id DB67A803B5
+	for <archive-asf-public@cust-asf.ponee.io>; Sun, 31 May 2026 01:05:43 +0000 (UTC)
+Received: (qmail 1337028 invoked by uid 998); 31 May 2026 01:05:43 -0000
+Mailing-List: contact site-dev-help@apache.org; run by ezmlm
+List-ID: <site-dev.apache.org>
+precedence: bulk
+list-help: <mailto:site-dev-help@apache.org>
+list-unsubscribe: <mailto:site-dev-unsubscribe@apache.org>
+list-post: <mailto:site-dev@apache.org>
+Delivered-To: mailing list site-dev@apache.org
+Received: (qmail 1337018 invoked by uid 116); 31 May 2026 01:05:43 -0000
+Received: from ec2-13-52-191-92.us-west-1.compute.amazonaws.com (HELO mailrelay2-ec2-ca.apache.org) (13.52.191.92)
+ by apache.org (qpsmtpd/0.94) with ESMTP; Sun, 31 May 2026 01:05:43 +0000
+Authentication-Results: apache.org; auth=none
+Received: from projects-vm3.apache.org (unknown [209.188.14.137])
+	by mailrelay2-ec2-ca.apache.org (ASF Mail Server at mailrelay2-ec2-ca.apache.org) with ESMTPS id 0896C8037E
+	for <site-dev@apache.org>; Sun, 31 May 2026 01:05:42 +0000 (UTC)
+Received: from [127.0.1.1] (localhost [127.0.0.1])
+	by projects-vm3.apache.org (ASF Mail Server at projects-vm3.apache.org) with ESMTP id B20371C4C4C
+	for <site-dev@apache.org>; Sun, 31 May 2026 01:05:41 +0000 (UTC)
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: WARN: Apache Livy (livy) missing from /data/committees.xml
+To: Site Development <site-dev@apache.org>
+Message-Id: <20260531010541.B20371C4C4C@projects-vm3.apache.org>
+Date: Sun, 31 May 2026 01:05:41 +0000 (UTC)
+From: Projects <apsite@apache.org>
+Reply-To: <site-dev@apache.org>
+Cc: site-dev@apache.org
+
+
+From site-dev-return-8740-archive-asf-public=cust-asf.ponee.io@apache.org  Mon Jun  1 01:05:44 2026
+Return-Path: <site-dev-return-8740-archive-asf-public=cust-asf.ponee.io@apache.org>
+X-Original-To: archive-asf-public@cust-asf.ponee.io
+Delivered-To: archive-asf-public@cust-asf.ponee.io
+Received: from mxout1-he-de.apache.org (mxout1-he-de.apache.org [95.216.194.37])
+	by mx-eu-03.ponee.io (Postfix) with ESMTPS id E85D73E882
+	for <archive-asf-public@cust-asf.ponee.io>; Mon,  1 Jun 2026 01:05:44 +0000 (UTC)
+Received: from mail.apache.org (mailgw-he-de.apache.org [IPv6:2a01:4f8:c2c:d4aa::1])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (4096 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mxout1-he-de.apache.org (ASF Mail Server at mxout1-he-de.apache.org) with ESMTPS id A75896094A
+	for <archive-asf-public@cust-asf.ponee.io>; Mon,  1 Jun 2026 01:05:44 +0000 (UTC)
+Received: (qmail 2723269 invoked by uid 998); 1 Jun 2026 01:05:44 -0000
+Mailing-List: contact site-dev-help@apache.org; run by ezmlm
+List-ID: <site-dev.apache.org>
+precedence: bulk
+list-help: <mailto:site-dev-help@apache.org>
+list-unsubscribe: <mailto:site-dev-unsubscribe@apache.org>
+list-post: <mailto:site-dev@apache.org>
+Delivered-To: mailing list site-dev@apache.org
+Received: (qmail 2723253 invoked by uid 116); 1 Jun 2026 01:05:43 -0000
+Received: from ec2-13-52-191-92.us-west-1.compute.amazonaws.com (HELO mailrelay2-ec2-ca.apache.org) (13.52.191.92)
+ by apache.org (qpsmtpd/0.94) with ESMTP; Mon, 01 Jun 2026 01:05:43 +0000
+Authentication-Results: apache.org; auth=none
+Received: from projects-vm3.apache.org (unknown [209.188.14.137])
+	by mailrelay2-ec2-ca.apache.org (ASF Mail Server at mailrelay2-ec2-ca.apache.org) with ESMTPS id E57DD80588
+	for <site-dev@apache.org>; Mon,  1 Jun 2026 01:05:42 +0000 (UTC)
+Received: from [127.0.1.1] (localhost [127.0.0.1])
+	by projects-vm3.apache.org (ASF Mail Server at projects-vm3.apache.org) with ESMTP id 93D381C091C
+	for <site-dev@apache.org>; Mon,  1 Jun 2026 01:05:42 +0000 (UTC)
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: WARN: Apache Livy (livy) missing from /data/committees.xml
+To: Site Development <site-dev@apache.org>
+Message-Id: <20260601010542.93D381C091C@projects-vm3.apache.org>
+Date: Mon,  1 Jun 2026 01:05:42 +0000 (UTC)
+From: Projects <apsite@apache.org>
+Reply-To: <site-dev@apache.org>
+Cc: site-dev@apache.org
+
+
+From site-dev-return-8741-archive-asf-public=cust-asf.ponee.io@apache.org  Tue Jun  2 01:05:45 2026
+Return-Path: <site-dev-return-8741-archive-asf-public=cust-asf.ponee.io@apache.org>
+X-Original-To: archive-asf-public@cust-asf.ponee.io
+Delivered-To: archive-asf-public@cust-asf.ponee.io
+Received: from mxout1-ec2-va.apache.org (mxout1-ec2-va.apache.org [3.227.148.255])
+	by mx-eu-03.ponee.io (Postfix) with ESMTPS id 5A4663E88C
+	for <archive-asf-public@cust-asf.ponee.io>; Tue,  2 Jun 2026 01:05:45 +0000 (UTC)
+Received: from mail.apache.org (mailgw-he-de.apache.org [116.203.246.181])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits))
+	(No client certificate requested)
+	by mxout1-ec2-va.apache.org (ASF Mail Server at mxout1-ec2-va.apache.org) with ESMTPS id 5918D4735D
+	for <archive-asf-public@cust-asf.ponee.io>; Tue,  2 Jun 2026 01:05:44 +0000 (UTC)
+Received: (qmail 1392810 invoked by uid 998); 2 Jun 2026 01:05:43 -0000
+Mailing-List: contact site-dev-help@apache.org; run by ezmlm
+List-ID: <site-dev.apache.org>
+precedence: bulk
+list-help: <mailto:site-dev-help@apache.org>
+list-unsubscribe: <mailto:site-dev-unsubscribe@apache.org>
+list-post: <mailto:site-dev@apache.org>
+Delivered-To: mailing list site-dev@apache.org
+Received: (qmail 1392800 invoked by uid 116); 2 Jun 2026 01:05:42 -0000
+Received: from ec2-13-52-191-92.us-west-1.compute.amazonaws.com (HELO mailrelay2-ec2-ca.apache.org) (13.52.191.92)
+ by apache.org (qpsmtpd/0.94) with ESMTP; Tue, 02 Jun 2026 01:05:42 +0000
+Authentication-Results: apache.org; auth=none
+Received: from projects-vm3.apache.org (unknown [209.188.14.137])
+	by mailrelay2-ec2-ca.apache.org (ASF Mail Server at mailrelay2-ec2-ca.apache.org) with ESMTPS id ECC3080588
+	for <site-dev@apache.org>; Tue,  2 Jun 2026 01:05:41 +0000 (UTC)
+Received: from [127.0.1.1] (localhost [127.0.0.1])
+	by projects-vm3.apache.org (ASF Mail Server at projects-vm3.apache.org) with ESMTP id 9D9831C4E87
+	for <site-dev@apache.org>; Tue,  2 Jun 2026 01:05:41 +0000 (UTC)
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: WARN: Apache Livy (livy) missing from /data/committees.xml
+To: Site Development <site-dev@apache.org>
+Message-Id: <20260602010541.9D9831C4E87@projects-vm3.apache.org>
+Date: Tue,  2 Jun 2026 01:05:41 +0000 (UTC)
+From: Projects <apsite@apache.org>
+Reply-To: <site-dev@apache.org>
+Cc: site-dev@apache.org
+
+
+From site-dev-return-8742-archive-asf-public=cust-asf.ponee.io@apache.org  Tue Jun  2 02:02:25 2026
+Return-Path: <site-dev-return-8742-archive-asf-public=cust-asf.ponee.io@apache.org>
+X-Original-To: archive-asf-public@cust-asf.ponee.io
+Delivered-To: archive-asf-public@cust-asf.ponee.io
+Received: from mxout1-he-de.apache.org (mxout1-he-de.apache.org [95.216.194.37])
+	by mx-eu-03.ponee.io (Postfix) with ESMTPS id 43D603E88C
+	for <archive-asf-public@cust-asf.ponee.io>; Tue,  2 Jun 2026 02:02:25 +0000 (UTC)
+Received: from mail.apache.org (mailgw-he-de.apache.org [IPv6:2a01:4f8:c2c:d4aa::1])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits)
+	 key-exchange X25519 server-signature RSA-PSS (4096 bits) server-digest SHA256)
+	(No client certificate requested)
+	by mxout1-he-de.apache.org (ASF Mail Server at mxout1-he-de.apache.org) with ESMTPS id 21BFE65248
+	for <archive-asf-public@cust-asf.ponee.io>; Tue,  2 Jun 2026 02:02:25 +0000 (UTC)
+Received: (qmail 1453055 invoked by uid 998); 2 Jun 2026 02:02:24 -0000
+Mailing-List: contact site-dev-help@apache.org; run by ezmlm
+List-ID: <site-dev.apache.org>
+precedence: bulk
+list-help: <mailto:site-dev-help@apache.org>
+list-unsubscribe: <mailto:site-dev-unsubscribe@apache.org>
+list-post: <mailto:site-dev@apache.org>
+Delivered-To: mailing list site-dev@apache.org
+Received: (qmail 1453032 invoked by uid 116); 2 Jun 2026 02:02:24 -0000
+Received: from ec2-13-52-191-92.us-west-1.compute.amazonaws.com (HELO mailrelay2-ec2-ca.apache.org) (13.52.191.92)
+ by apache.org (qpsmtpd/0.94) with ESMTP; Tue, 02 Jun 2026 02:02:24 +0000
+Authentication-Results: apache.org; auth=none
+Received: from projects-vm3.apache.org (unknown [209.188.14.137])
+	by mailrelay2-ec2-ca.apache.org (ASF Mail Server at mailrelay2-ec2-ca.apache.org) with ESMTPS id 5A9DA8093E
+	for <site-dev@apache.org>; Tue,  2 Jun 2026 02:02:23 +0000 (UTC)
+Received: from [127.0.1.1] (localhost [127.0.0.1])
+	by projects-vm3.apache.org (ASF Mail Server at projects-vm3.apache.org) with ESMTP id 06FC61C51F5
+	for <site-dev@apache.org>; Tue,  2 Jun 2026 02:02:23 +0000 (UTC)
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Subject: ERROR: one or more errors detected - see also the /var/log/www-data/parseprojects.log file
+To: Site Development <site-dev@apache.org>
+Message-Id: <20260602020223.06FC61C51F5@projects-vm3.apache.org>
+Date: Tue,  2 Jun 2026 02:02:23 +0000 (UTC)
+From: Projects <apsite@apache.org>
+Reply-To: <site-dev@apache.org>
+Cc: site-dev@apache.org
+
+URLs:
+https://gitbox.apache.org/repos/asf?p=axis-axis2-java-core.git;a=blob_plain;f=etc/doap_Axis2.rdf;hb=HEAD
+HTTP Error 429: Too Many Requests
+
