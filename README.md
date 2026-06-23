@@ -1,5 +1,5 @@
 Want more space in your Eclipse workspace?
-==========================================
+==========================================ü
 
 1. [Download](https://github.com/trustin/eclipse-hidestatusbar/downloads) this plugin and copy it into the `$ECLIPSE_HOME/dropins` directory to hide the toolbar and the status bar from your workspace.
 2. Open the Preferences dialog, go to 'General -> Perspectives', and check 'Hide empty fast view bar'.
