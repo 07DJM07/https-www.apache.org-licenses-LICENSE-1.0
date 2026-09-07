@@ -6,3 +6,4 @@ Want more space in your Eclipse workspace?
 3. Use Mac OS X or Unity to save even more space by moving the menu bar into the top panel.
   * See [this workaround](https://bugs.launchpad.net/ubuntu/+source/libdbusmenu/+bug/618587/comments/46) for Unity.
 
+
